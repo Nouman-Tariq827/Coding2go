@@ -9,7 +9,13 @@ body {
 }
 .navbar-container{
     display: none;
-  
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 2px;
+    padding: 2% 5%;
+    width: 100wv;
+    background-color: white;
+    border-radius: 10px;
 }
 .logo{
     font-size: 150%;
@@ -41,6 +47,7 @@ body {
         justify-content: space-between;
         align-items: center;
         margin: 5px 2px;
+        padding: 5px 20px;
         width: 100wv;
         background-color: white;
     }
@@ -57,7 +64,7 @@ body {
         justify-content: space-between;
     
     }
-     
+   
     .nav-links ul li a{
         text-decoration: none;
         padding: 15px 15px;
@@ -90,7 +97,8 @@ body {
         justify-content: space-between;
     
     }
-   
+    
+  
     .nav-links ul li a{
         text-decoration: none;
         padding: 15px 15px;
